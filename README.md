@@ -18,5 +18,5 @@
    plugins中配置 new VueLoaderPlugin()
    "vue$":'vue/dist/vue.esm.js' 修改vue包文件路径
 
-> webpack.config.js 是webpack的基本配置
-> build文件夹将webpack的公共部分抽离出来(webpack.base.conf.js)，并分别配置了开发环境(webpack.dev.conf.js)和线上环境(webpack.prod.conf.js)
+- webpack.config.js 是webpack的基本配置
+- build文件夹将webpack的公共部分抽离出来(webpack.base.conf.js)，并分别配置了开发环境(webpack.dev.conf.js)和线上环境(webpack.prod.conf.js)

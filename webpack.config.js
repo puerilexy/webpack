@@ -101,7 +101,7 @@ module.exports = {
         ExtCssPlugin,
         ExtSassPlugin
     ],
-    devServer: { // 起服务
+    devServer: { // 服务器
         host:'localhost', // 域名
         port: 9090, // 端口号
         open: true, // 为true时自动打开浏览器
