@@ -1,0 +1,10 @@
+$color: skyblue;
+body{
+    background: $color;
+}
+.wrap{
+    width: 400px;
+    height: 200px;
+    background: url(../imgs/1.jpg);
+    background-size: contain;
+}
