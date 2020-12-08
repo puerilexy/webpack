@@ -20,6 +20,8 @@ https://www.yuque.com/puerile/mcvsvd/vfty4i
    plugins中配置 new VueLoaderPlugin()
    "vue$":'vue/dist/vue.esm.js' 修改vue包文件路径
 5. 如果你使用 webpack 4+ 版本，你还需要安装 CLI。
+6. Cannot find module 'webpack-cli/bin/config-yargs' 报错原因：webpack-cli 及 webpack-de-server版本号冲突
+
 
 - webpack.config.js 是webpack的基本配置
 - build文件夹将webpack的公共部分抽离出来(webpack.base.conf.js)，并分别配置了开发环境(webpack.dev.conf.js)和线上环境(webpack.prod.conf.js)
